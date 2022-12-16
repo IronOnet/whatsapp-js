@@ -143,4 +143,6 @@ const useStyles = makeStyles({
         color: GRAY, 
         marginBottom: 20
     },
-});
+    });
+
+export default WebEmptyRoomComponent;
