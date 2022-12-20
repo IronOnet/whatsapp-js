@@ -15,7 +15,7 @@ import {
     REFRESH
 } from "./WebChatListReducer"; 
 
-let socket = new Socket(); 
+let socket = getSocket();
 const cache = new CellMeasurerCache({
     fixedWidth: true, 
     defaultHeight: 60, 
