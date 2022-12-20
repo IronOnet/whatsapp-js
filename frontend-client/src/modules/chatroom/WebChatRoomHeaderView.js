@@ -19,7 +19,7 @@ let socket = getSocket();
 const WebChatRoomHeaderView = ({ item, isNewChat }) =>{
 
     const [ userType, setUserType ] = useState("");
-    const [ displayScreen, setDisplayScreen ] = useState("");
+    const [ displayLastSeen, setDisplayLastSeen ] = useState("");
     const [ apiLastSeen, setApiLastSeen ] = useState("");
 
     let styles = useStyles();
@@ -83,7 +83,7 @@ const WebChatRoomHeaderView = ({ item, isNewChat }) =>{
                 : lastSeen.status; 
                 setDisplayLastSeen(time);
             } else if(apiLastSeen !== ""){
-                let time = `Last seen at ${getDateTimeInFOrmat(apiLastSeen.lastSeen)}`; 
+                let time = `Last seen at ${getDateTimeInFormat(apiLastSeen.lastSeen)}`; 
                 setDisplayLastSeen(time);
             }
         } else{
