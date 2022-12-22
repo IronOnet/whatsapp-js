@@ -128,7 +128,7 @@ const ChatRoomView = ({ chatItem, isNewChat }) =>{
         if(text != ""){
 
             isNewChat = chatRoomList.length === 0 ? true: false; 
-            let chatRequest = getChatRoomModel(chatItem, isNewChat, userId, text); 
+            let chatRequest = getChatRoomChatModel(chatItem, isNewChat, userId, text); 
             socket.emit(webConstants.CHAT_ROOM, chatRequest); 
 
             chatRequest.chatUnreadCount = {
