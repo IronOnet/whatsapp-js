@@ -18,7 +18,7 @@ const WebContactsItem = ({ item, onItemClick }) =>{
                 cursor: "pointer"
             }}
         >
-            <Typograpĥy 
+            <Typography
                 style={{
                     display:"flex", 
                     flex: 0.2, 
@@ -27,7 +27,7 @@ const WebContactsItem = ({ item, onItemClick }) =>{
                 }}
             >
                 {!item.thumbnailPath && <Avatar source={USER} />}
-            </Typograpĥy>
+            </Typography>
             <div 
                 style={{
                     flexDirection: "column", 
