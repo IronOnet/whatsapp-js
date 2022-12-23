@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"; 
 import './css/footer.css'; 
 import { ReplyFooterProps } from '../utils/interfaceHelper'; 
-import { WHITE } from '../../utils/WebColors'; 
+import { WHITE } from '../utils/Colors';
 
 export const ReplyFooterView = ({ progressIndex, onReplyButtonClick, 
                 onReplyTextChange, onInputFocus, messageList }: ReplyFooterProps) =>{
