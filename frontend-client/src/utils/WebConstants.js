@@ -1,4 +1,4 @@
-export const WEB_CONSTANTS = {
+export const webConstants = {
 
     API:{
         SERVER_URL : '', 
