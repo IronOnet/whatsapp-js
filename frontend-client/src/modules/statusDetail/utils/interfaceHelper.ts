@@ -22,9 +22,9 @@ export interface StoryContainerProps extends CommonProps{
     barStyle?: BarStyleProps | undefined, 
     onChange: Function, 
     headerComponent?: FunctionComponentElement<CommonProps> | undefined , 
-    useProfile?: UserProps | undefined, 
+    userProfile?: UserProps | undefined, 
 
-    replyViews?: ReplyProps | undefined, 
+    replyView?: ReplyProps | undefined, 
     footerComponent?: FunctionComponentElement<CommonProps> | undefined 
 
     onReplyTextChange?: Function | undefined, 
