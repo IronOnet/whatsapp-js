@@ -32,10 +32,10 @@ If you like this work don't forget to hit the star button to show appreciation
 => [Socket-IO](https://socket.io)
 
 
-### Web-Server (Backend) + Node.js server + Python (Flask server)
+### Web-Server (Backend) + Go (Gorilla-mux)
 
 => [Golang](https://golang.org) 
-=> [Gin-Gonic](https://gin-gonic.org) 
+=> [Gorilla](https://github.com/gorilla/mux) 
 => [MongoDB](https://mongodb.org) 
 
 
